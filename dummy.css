@@ -4,101 +4,101 @@
 
 /* always have border box at the top */
 * {
-    box-sizing: border-box;
-    /* Makes sure that padding and border are included in the element's total width and height. */
+  box-sizing: border-box;
+  /* Makes sure that padding and border are included in the element's total width and height. */
 }
 
 body {
-    font-family: sans-serif;
-    margin: 0 auto;
-    background-image: url(https://images.unsplash.com/photo-1573883844855-f364441ac463?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
-    background-repeat: no-repeat;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    min-height: 120vh;
-    background-color: #00f;
+  font-family: sans-serif;
+  margin: 0 auto;
+  background-image: url(https://images.unsplash.com/photo-1573883844855-f364441ac463?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+  background-repeat: no-repeat;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 120vh;
+  background-color: #00f;
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    border-bottom: 5px solid brown;
-    width: 100%;
-    background-color: burlywood;
-    /* need nav to move when scrolling */
-    position: fixed;
-    /* this is the top of the page */
-    top: 0;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 5px solid brown;
+  width: 100%;
+  background-color: burlywood;
+  /* need nav to move when scrolling */
+  position: fixed;
+  /* this is the top of the page */
+  top: 0;
 }
 
 nav a {
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 /* Change the color of links on hover */
 nav a:hover {
-    background-color: brown;
-    color: white;
+  background-color: brown;
+  color: white;
 }
 
 /* Add a color to the active/current link */
 nav a.active {
-    background-color: brown;
-    color: white;
+  background-color: brown;
+  color: white;
 }
 
 /* be able to talk about class, id, flex etc */
 
 footer {
-    border-top: 5px solid brown;
-    background-color: burlywood;
-    width: 100%;
-    text-align: center;
-    padding-top: 10px;
+  border-top: 5px solid brown;
+  background-color: burlywood;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
 }
 
 /* if p is on its own after the comma then it selects ever p tag */
 footer a,
 p {
-    font-size: 16px;
-    color: black;
+  font-size: 14px;
+  color: black;
 }
 
 #menu {
-    display: flex;
-    /* Creates a flex container for flexible layout. */
-    flex-direction: column;
-    /* Stacks children in a vertical column. */
-    margin: auto;
-    /* Centers the container horizontally and vertically. */
-    width: 80%;
-    /* Sets the width to 80% of the parent container. */
-    max-width: 500px;
-    /* Limits the width to a maximum of 500px. */
-    padding: 40px;
-    /* Adds 40px space inside the container. */
-    background-color: burlywood;
-    /* Sets the background color to burlywood. */
+  display: flex;
+  /* Creates a flex container for flexible layout. */
+  flex-direction: column;
+  /* Stacks children in a vertical column. */
+  margin: auto;
+  /* Centers the container horizontally and vertically. */
+  width: 80%;
+  /* Sets the width to 80% of the parent container. */
+  max-width: 500px;
+  /* Limits the width to a maximum of 500px. */
+  padding: 40px;
+  /* Adds 40px space inside the container. */
+  background-color: burlywood;
+  /* Sets the background color to burlywood. */
 }
 
 .item {
-    display: flex;
-    /* Makes the .item a flex container for its children. */
-    flex-direction: row;
-    /* Aligns children in a horizontal row. */
-    justify-content: space-between;
-    /* Distributes children with space between them. */
+  display: flex;
+  /* Makes the .item a flex container for its children. */
+  flex-direction: row;
+  /* Aligns children in a horizontal row. */
+  justify-content: space-between;
+  /* Distributes children with space between them. */
 }
 
 .item p {
-    margin-top: 5px;
-    /* Adds 5px space above each paragraph. */
-    margin-bottom: 5px;
-    /* Adds 5px space below each paragraph. */
-    font-size: 18px;
-    /* Sets the font size of the text to 18px. */
+  margin-top: 5px;
+  /* Adds 5px space above each paragraph. */
+  margin-bottom: 5px;
+  /* Adds 5px space below each paragraph. */
+  font-size: 18px;
+  /* Sets the font size of the text to 18px. */
 }
